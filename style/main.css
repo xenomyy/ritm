@@ -189,6 +189,13 @@ nav a:hover{
 }
 .about-img{
     margin-bottom: 200px;
+    border: solid 3px #162831;
+}
+.about-img:hover{
+    filter: brightness(1.2);
+    border: solid 3px rgb(30, 98, 201);
+    filter: drop-shadow(0 5px 10px #018ABE);
+    transition: all 0.3s linear;
 }
 .price{
     width: 1500px;
@@ -241,4 +248,79 @@ nav a:hover{
     object-fit: cover;
     border-radius: 20px;
     margin: auto;
+    border: solid 3px #162831;
+}
+.price-img:hover{
+    filter: brightness(1.2);
+    border: solid 3px rgb(30, 98, 201);
+    filter: drop-shadow(0 5px 10px #018ABE);
+    transition: all 0.3s linear;
+}
+.location{
+    height: 650px;
+    width: 1450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.main-location{
+    width: 904px;
+    height: 624px;
+}
+.location-img{
+    border-radius: 10px;
+    height: 624px;
+    width: 904px;
+}
+.img-point{
+    content: url(../style/img/carbon_location-filled2.svg);
+}
+.location-reserve1{
+    background-color: #018ABE;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 48px;
+    margin-bottom: 24px;
+}
+.location-reserve2{
+    background-color: #018ABE;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 48px;
+}
+.location-title{
+    color: white;
+}
+.location-text{
+    color: white;
+    font-size: 18px;
+}
+.nev:before{
+    content: url(../style/img/carbon_location-filled.svg);
+    margin-right: 20px;
+}
+.spas:before{
+    content: url(../style/img/Spb_metro_logo\ 1.svg);
+    margin-right: 20px;
+}
+.zpd:before{
+    content: url(../style/img/bi_calendar-week-fill.svg);
+    margin-right: 20px;
+}
+.location-link{
+    width: 155px;
+    height: 19px;
+    color: #018ABE;
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight:700;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
 }
